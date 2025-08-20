@@ -1,18 +1,35 @@
-pipeline {
-    agent any
-    stages {
-        stage('Docker version') {
-            steps {
-                sh 'echo "Docker path:" $(which docker)'
-                sh 'docker version'
-            }
-        }
-        stage('Checkout') {
-            steps {
-                git branch: 'master', url: 'https://github.com/softingenieur/Jenkins.git'
-                sh 'pwd'
-                sh 'ls -la'
-            }
-        }
-    }   
-}
+
+2. 
+
+
+It is absolutely not about summarizing the thesis!
+
+Insist on:
+your contribution
+added value
+skills acquired
+
+
+
+3. 
+Services:
+Fund Services
+Issuer Services
+Financial solution etc.
+
+
+To whom:
+Businesses
+Financial institutions
+public-sector entities
+
+
+4. 
+
+
+5.How to implement the migration of applications taking into the account
+existing stack, business demand and security risks trying to follow the best
+practices?
+
+
+
